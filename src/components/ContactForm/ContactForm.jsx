@@ -1,9 +1,9 @@
 import { useSelector, useDispatch } from 'react-redux';
 import css from './ContactForm.module.css';
 import Notiflix from 'notiflix';
-import { contactFilter } from '../utils/ContactFormFunc';
-import { selectContacts } from '../redux/selectors';
-import { addContact } from '../redux/operations';
+import { contactFilter } from '../../utils/ContactFormFunc';
+import { selectContacts } from '../../redux/selectors';
+import { addContact } from '../../redux/operations';
 import { nanoid } from '@reduxjs/toolkit';
 const ContactForm = () => {
   const dispatch = useDispatch();

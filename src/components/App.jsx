@@ -2,8 +2,8 @@ import Filter from './Filter/Filter';
 import ContactForm from './ContactForm/ContactForm';
 import ContactList from './ContactList/ContactList';
 import css from './App.module.css';
-import { selectIsLoading, selectError } from './redux/selectors';
-import { fetchContactsItems } from './redux/operations';
+import { selectIsLoading, selectError } from '../redux/selectors';
+import { fetchContactsItems } from '../redux/operations';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
